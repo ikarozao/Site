@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barra de Navegação</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div id="hamburger" onclick="toggleMenu()">☰</div>
+  <div>EmpreEasy</div>
+  <div id="search-icon" onclick="toggleSearch()">
+    <img src="/imagens/Design sem nome (2).png" alt="">
+  </div>
+</div>
+
+<ul id="menu" class="menu">
+  
+  <a href="/inicial.html">
+    <li>Início</li>
+  </a> 
+  <a href="/livros.html">
+    <li>Livros</li>
+  </a>
+  <a href="/sobre.html">
+    <li>Sobre</li>
+  </a>
+  <a href="/ajuda.html">
+    <li>Ajuda</li>
+  </a>
+  
+  <p id="embm">EmpreEasy®️</p>
+</ul>
+
+<input type="text" id="search-bar" class="search-bar" placeholder="Pesquisar..."/>
+
+<script>
+function toggleMenu() {
+  var menu = document.getElementById("menu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+
+function toggleSearch() {
+  var search = document.getElementById("search-bar");
+  if (search.style.display === "block") {
+    search.style.display = "none";
+  } else {
+    search.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
