@@ -90,7 +90,8 @@ section .estrela45 img {
   height: 100%;
 }
 section .estrela45 p {
-  font-size: 5px;
+  margin-left: 3px;
+  font-size: 12.5px;
 }
 section h2 {
   margin-top: 58px;
