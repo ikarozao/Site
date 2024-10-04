@@ -17,7 +17,7 @@ body {
 
 
 .tlin {
-    margin-top: 90px;
+    margin-top: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,9 +42,10 @@ body {
     margin-left: 90px;
     font-size: 40px;
     color: #0398F4;
-    text-shadow: 2px 1.5px #7c7c7c;
+    text-shadow: 2px 1.5px #ababab;
     font-family: "Aclonica", sans-serif;
-
+    margin-top: 2.5vh;
+    margin-bottom: 1.5vh;
 }
 
 .baner {
@@ -249,7 +250,7 @@ section2 {
 
 #button {
     margin-left: 90px;
-    margin-top: -30px;
+    margin-top: 0vh;
 }
 
 #gr {
@@ -295,19 +296,17 @@ h6 {
 
 #pq {
     font-size: 20px;
-    margin-left: 10px;
     margin-right: 10px;
     color: rgb(0, 0, 0);
-    text-shadow: 5px 5px 6px rgb(112, 112, 112);
+    text-shadow: 2px 2px 2px rgb(212, 212, 212);
     font-family: "Poppins", sans-serif;
 }
 
 #sob1 {
     font-size: 20px;
-    margin-left: 10px;
     margin-right: 10px;
     color: rgb(0, 0, 0);
-    text-shadow: 5px 5px 6px rgb(112, 112, 112);
+    text-shadow: 2px 2px 2px rgb(212, 212, 212);
     font-family: "Poppins", sans-serif;
     margin-top: -40px;
 }
@@ -316,7 +315,7 @@ h6 {
     margin-left: 700px;
     margin-top: -300px;
     border-radius: 9px;
-
+    box-shadow: 2px 2px 2px rgb(212, 212, 212);
     &:hover {
         transform: scale(1.1);
     }
@@ -337,20 +336,18 @@ h6 {
     /* Corrected scale usage */
 }
 
-#qm {
+.quemoemp{
     color: #0398F4;
-    text-shadow: 10px 5px 20px rgb(191, 191, 191);
-    font-size: 30px;
-    text-decoration: underline;
-    line-height: 0;
-    font-family: "Poppins", sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-left: -110px;
-    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    margin-left: -11vw;
+    margin-top: 3vh;
+    margin-bottom: -2vh;
+    text-decoration: underline 2px;
 }
 
 #aprn {
@@ -367,24 +364,35 @@ h6 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-top: 30px;
-
+    margin-top: 1vh;
+    position: relative;
+    margin-left: -6vw;
+    font-size: 20px;
+}
+.ixi p {
+    display: flex;
+    margin-left: -5vw;
 }
 
-.qme {
+.qme{
     display: flex;
     justify-content: space-around;
-    margin-left: -110px;
-
+    align-items: center;
+    flex-direction: row;
+}
+.qme img{
+    width: 4.5vw;
+    height: 10vh;
+    margin-left: -5vw;
 }
 
 .serve {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-left: -170px;
     font-family: "Poppins", sans-serif;
     text-align: center;
+
 }
 
 #sucesso {
@@ -401,15 +409,16 @@ h6 {
 }
 
 #buy {
-    width: 300px;
-    height: 400px;
+    width: 20vw;
+    height: 60vh;
     border-radius: 10px;
     box-shadow: 10px 5px 20px rgb(191, 191, 191);
     animation: 5s infinite;
+    margin-top: 2vh;
 }
 
 #buy {
-    transition: transform 0.3s;
+    transition: transform 0.5s;
     /* Add duration for the transition */
 }
 
@@ -422,7 +431,7 @@ h6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 140px;
+    margin-left: -10vw;
 }
 
 #ar {
@@ -439,6 +448,12 @@ h6 {
     background-color: #7c7c7c;
     border-radius: 30px 30px 0px 0px;
 }
+.rdpp  {
+    height: 300px;
+    width: 1450px;
+    background-color: #7c7c7c;
+    border-radius: 30px 30px 0px 0px;
+}
 
 .rdp {
     display: flex;
@@ -448,6 +463,15 @@ h6 {
     margin-top: 120px;
     box-shadow: 10px 10px 20px rgb(191, 191, 191);
 }
+.rdpp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 120px;
+    box-shadow: 10px 10px 20px rgb(191, 191, 191);
+}
+
 
 
 #brdb {
@@ -588,46 +612,6 @@ h6 {
     /* Corrected scale usage */
 }
 
-//Barra de navegação
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7c7c7c;
-    color: white;
-    padding: 3px;
-    margin-bottom: -50px;
-    margin-left: 22px;
-}
-
-
-
-#embm {
-    margin-bottom: -100px;
-    margin-top: 100px;
-    display: flex;
-    font-family: "Aclonica", sans-serif;
-    color: white;
-    text-shadow: 10px 5px 35px rgb(191, 191, 191);
-}
-
-#calmaae {
-    margin-left: -1px;
-}
-
-
-#nmini {
-    font-size: 35px;
-}
-
-.navegação {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
 
 
 //Serempreasy
@@ -756,19 +740,23 @@ h6 {
 
 
 .container img {
-    width: 15%;
-    height: 100%;
+    width: 15vw;
+    height: 60vh;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid rgb(210, 210, 210);
     transition: all ease-in-out 0.5s;
+    box-shadow: 2px 2px 2px #bfbfbf;
 }
 
 .container img:hover {
-    width: 30%;
+    width: 21vw;
+    height: 65vh;
     cursor: pointer;
 }
-
+a{
+    position: relative;
+    display: flex;
+}
 //fim card
 
 
@@ -779,20 +767,18 @@ h6 {
     justify-content: center;
     text-align: center;
     position: relative;
-    margin-top: 60px;
+    margin-top: 25px;
     color: #0398F4;
     text-shadow: 10px 10px 15px rgb(197, 197, 197);
 }
-
 #Organização {
-    font-family: aclonica;
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-shadow: 10px 10px 15px rgb(197, 197, 197);
-    margin-top: 55px;
-    margin-bottom: 20px;
-    color: #0398F4;
+    align-items: center;
+    color: white;
+    font-family: aclonica;
+    margin-top: 3vh;
+    text-shadow: 2px 2px 2px rgb(156, 156, 156);
 }
 
 #pode {
@@ -805,7 +791,22 @@ h6 {
     font-size: 24px;
     text-align: center;
     margin-top: 1px;
-    margin-bottom: 60px;
+    margin-bottom: 7vh;
+}
+.fundocomece{
+    width: 78vw;
+    height: 12vh;
+    background-color: #888;
+    border-radius: 30px;
+
+}
+.otofundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
 }
 
 #Organização {
@@ -823,14 +824,17 @@ h6 {
 }
 
 .topicos img {
-    width: 450px;
-    height: 280px;
+    width: 30vw;
+    height: 42vh;
     border-radius: 20px;
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
     border: 2px solid rgb(210, 210, 210);
     margin-top: 15px;
+    margin-bottom: -1vh;
 }
-
+a{
+    text-decoration: none;
+}
 .fundamentos {
     justify-content: space-around;
     display: flex;
@@ -857,7 +861,7 @@ h6 {
 }
 
 .fundamentos img {
-    animation: 3s infinite;
+    animation: 3s infinite ease-in-out;
 }
 
 .fundamentos img {
@@ -886,10 +890,10 @@ h6 {
 
 .escritas2 h1 {
     font-family: aclonica;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
     color: #0398F4;
     text-shadow: 10px 10px 15px rgb(197, 197, 197);
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .estudo {
@@ -959,7 +963,9 @@ h6 {
     height: 80px;
     background-color: rgb(152, 152, 152);
     border-radius: 30px;
+    box-shadow: 2px 2px 2px #bfbfbf;
 }
+
 
 .fundaa {
     display: flex;
@@ -968,11 +974,25 @@ h6 {
     text-align: center;
     margin-top: 50px;
 }
+.fundaaa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
 
 .fundaa h1 {
     font-family: aclonica;
     color: white;
     text-shadow: 1px 1px 1px #7c7c7c;
+}
+.fundaaa h1 {
+    font-family: aclonica;
+    color: white;
+    text-shadow: 3px 3px 3px #7c7c7c;
 }
 
 .oemp h1 {
@@ -1092,7 +1112,7 @@ $cor-logo: #ffffff;
     position: relative; /* Para posicionar o input */
 }
 
-#barradepesquisaa {
+#barradepesquisa{
     width: 10vw; /* Começa como quadrado */
     margin-right: -3.1vw;
     height: 30px; /* Altura do input */
@@ -1106,8 +1126,4 @@ $cor-logo: #ffffff;
     opacity: 0.9; /* Levemente transparente */
     cursor: pointer; /* Indica que é interativo */
     box-shadow: 3px 3px 3px rgb(113, 113, 113);
-}
-
-#barradepesquisaa:focus {
-    width: 150px; /* Largura quando focado */
 }
