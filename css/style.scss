@@ -8,22 +8,19 @@ body {
     margin: 0;
 }
 
-.bbb{
+.bbb {
     margin-left: -8px;
 }
 
 
-#barra {
-    color: white;
-
-
-}
 
 
 
 .tlin {
     margin-top: 90px;
-    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: $car-inicio;
     width: 1100px;
     height: 285px;
@@ -31,9 +28,15 @@ body {
     border-radius: 30px 30px 30px 30px;
     box-shadow: 10px 5px 20px rgb(191, 191, 191);
     border: 3px solid #c4c4c4;
+    margin-left: 200px;
 }
 
-.tlin {}
+.tlin2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -400px;
+    margin-top: -30px;
+}
 
 #inicio {
     margin-left: 90px;
@@ -72,12 +75,13 @@ section {
     display: flex;
     flex-direction: row;
 
-    & .livro {
+    & .livro-direita1 {
         width: 193px;
         height: 300px;
         margin-top: 53px;
-        margin-left: 118px;
-       
+        margin-left: 140px;
+
+
 
         & img {
             width: 100%;
@@ -93,33 +97,139 @@ section {
             margin-top: 0;
             margin-left: 5px;
         }
-        
+
 
     }
 
     & .estrela45 {
         width: 9vw;
         height: 5vh;
-        margin-left:-8px ;
+        margin-left: -8px;
         display: flex;
-        
-        & img{
+
+        & img {
             width: 100%;
             height: 100%;
         }
-        & p{
+
+        & p {
             margin-left: 3px;
             font-size: 12.5px;
         }
     }
 
-
-
     & h2 {
         margin-top: 58px;
         margin-left: 17px;
         height: 20px;
-        margin-bottom: 0px;
+        margin-bottom: -0px;
+
+        & p1 {
+            font-size: 9px;
+            margin-top: 0px;
+        }
+    }
+
+    & .livro-esquerda1 {
+        width: 193px;
+        height: 300px;
+        margin-top: 53px;
+        margin-left: 310px;
+
+        & img {
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        & p {
+            font-size: 8px;
+            margin-top: 0;
+            margin-left: 5px;
+        }
+
+    }
+
+    & .estrela45 {
+        width: 9vw;
+        height: 5vh;
+        margin-left: -8px;
+        display: flex;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+
+        & p {
+            margin-left: 3px;
+            font-size: 12.5px;
+        }
+    }
+
+ 
+}
+
+section2 {
+    color: #B4B4B4;
+    font-family: "Aclonica", sans-serif;
+    display: flex;
+    flex-direction: row;  
+    margin-left: 140px;
+    margin-bottom: 390px;
+
+    & .livro-direita2 {
+        width: 193px;
+        height: 300px;
+    
+        & img {
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        & p {
+            font-size: 8px;
+            margin-top: 0;
+            margin-left: 5px;
+        }
+
+    }
+
+    & .estrela45 {
+        width: 9vw;
+        height: 5vh;
+        margin-left: -8px;
+        display: flex;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+
+        & p {
+            margin-left: 3px;
+            font-size: 12.5px;
+        }
+    }
+
+    & h2 {
+        margin-right: 17px;
+        height: 50px;
+        margin-bottom: 50px;
+        
+
+        & p1 {
+            font-size: 9px;
+            margin-top: 0px;
+        }
+
     }
 }
 
@@ -515,34 +625,10 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.navbarra {
-    height: 50px;
-    width: 1450px;
-    border-radius: 0px 0px 15px 15px;
-    background-color: rgb(152, 152, 152);
-    color: white;
-}
-
-.navbarra {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     position: relative;
-    top: 0%;
-    left: 42px;
-    font-family: "Aclonica", sans-serif;
-    flex-direction: row;
-    margin-left: -45px;
-    margin-bottom: -25px;
 }
 
-.navbarra {
-    color: white;
-    font-size: 30px;
-}
+
 
 //Serempreasy
 
@@ -554,6 +640,20 @@ h6 {
     align-items: center;
 }
 
+.navegaçãooo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navegaçãoooo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .navbarraa {
     height: 50px;
     width: 1450px;
@@ -569,7 +669,6 @@ h6 {
     align-content: center;
     position: relative;
     top: 0%;
-    left: 42px;
     font-family: "Aclonica", sans-serif;
     flex-direction: row;
     margin-bottom: -25px;
@@ -624,11 +723,37 @@ h6 {
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
     align-items: center;
     align-self: center;
-    margin-left: 235px;
+    margin-left: 240px;
 }
+
+/* Para Chrome e Edge */
+::-webkit-scrollbar {
+    width: 8px;
+    /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Cor do fundo da barra de rolagem */
+    border-radius: 10px;
+    /* Bordas arredondadas do fundo */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Cor do polegar (parte que se move) */
+    border-radius: 10px;
+    /* Bordas arredondadas do polegar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Cor do polegar ao passar o mouse */
+}
+
 
 .container img {
     width: 15%;
@@ -669,6 +794,7 @@ h6 {
     margin-bottom: 20px;
     color: #0398F4;
 }
+
 #pode {
     font-family: "Poppins", sans-serif;
     display: flex;
@@ -695,7 +821,8 @@ h6 {
     transform: scale(1.1);
     /* Corrected scale usage */
 }
-.topicos img{
+
+.topicos img {
     width: 450px;
     height: 280px;
     border-radius: 20px;
@@ -703,23 +830,26 @@ h6 {
     border: 2px solid rgb(210, 210, 210);
     margin-top: 15px;
 }
-.fundamentos{
+
+.fundamentos {
     justify-content: space-around;
     display: flex;
 }
 
-.escritas{
+.escritas {
     display: flex;
     flex-direction: column;
     margin-left: -200px;
     margin-top: 15px;
 }
-.escritas p{
+
+.escritas p {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     margin-bottom: -1px;
 }
-.escritas h1{
+
+.escritas h1 {
     font-family: aclonica;
     margin-bottom: 6px;
     color: #0398F4;
@@ -730,7 +860,7 @@ h6 {
     animation: 3s infinite;
 }
 
-.fundamentos img{
+.fundamentos img {
     transition: transform 0.3s;
     /* Add duration for the transition */
 }
@@ -739,38 +869,43 @@ h6 {
     transform: scale(1.1);
     /* Corrected scale usage */
 }
-.escritas2{
+
+.escritas2 {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    
+
 }
-.escritas2 p{
+
+.escritas2 p {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     margin-bottom: -1px;
-    
+
 }
-.escritas2 h1{
+
+.escritas2 h1 {
     font-family: aclonica;
     margin-bottom: 6px;
     color: #0398F4;
     text-shadow: 10px 10px 15px rgb(197, 197, 197);
     margin-top: 30px;
 }
-.estudo{
+
+.estudo {
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
     margin-left: 30px;
     flex-direction: row-reverse;
 }
+
 .estudo img {
     animation: 3s infinite;
     margin-left: -50px;
 }
 
-.estudo img{
+.estudo img {
     transition: transform 0.3s;
     /* Add duration for the transition */
 }
@@ -779,20 +914,23 @@ h6 {
     transform: scale(1.1);
     /* Corrected scale usage */
 }
-.net{
+
+.net {
     display: flex;
     justify-content: space-around;
     margin-top: 4%;
 }
-.net img{
+
+.net img {
     margin-left: 30px;
 }
+
 .net img {
     animation: 3s infinite;
     margin-right: -100px;
 }
 
-.net img{
+.net img {
     transition: transform 0.3s;
     /* Add duration for the transition */
 }
@@ -801,39 +939,43 @@ h6 {
     transform: scale(1.1);
     /* Corrected scale usage */
 }
-.net h1{
+
+.net h1 {
     margin-left: -80px;
 }
-.net p{
+
+.net p {
     margin-left: -80px;
 }
 
 //fundamentos
 
-#casa{
+#casa {
     border: solid 1px black;
 }
 
-.funda2{
+.funda2 {
     width: 1200px;
     height: 80px;
     background-color: rgb(152, 152, 152);
     border-radius: 30px;
 }
-.fundaa{
+
+.fundaa {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 50px;
 }
-.fundaa h1{
+
+.fundaa h1 {
     font-family: aclonica;
     color: white;
     text-shadow: 1px 1px 1px #7c7c7c;
 }
 
-.oemp h1{
+.oemp h1 {
     color: #0398F4;
     font-family: aclonica;
     text-shadow: 1px 1px 1px #a7a7a7;
@@ -845,10 +987,10 @@ h6 {
     margin-left: 200px;
     margin-top: 40px;
     text-decoration: underline 2px;
-    
+
 }
 
-.oemp p{
+.oemp p {
     color: #000;
     text-shadow: 1px 1px 1px #c2c1c1;
     display: flex;
@@ -859,23 +1001,27 @@ h6 {
     margin-bottom: 15px;
     margin-left: 200px;
 }
-.oemp{
+
+.oemp {
     margin-top: 20px;
 }
-.video2{
+
+.video2 {
     display: flex;
     justify-content: end;
     align-items: end;
     margin-top: -450px;
     margin-right: 165px;
-    
-    
+
+
 }
-#video2{
+
+#video2 {
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(211, 211, 211);
     border: 3px solid rgb(177, 177, 177);
 }
+
 #video2 {
     animation: 3s infinite;
 }
@@ -888,4 +1034,80 @@ h6 {
 #video2:hover {
     transform: scale(1.1);
     /* Corrected scale usage */
+}
+
+$cor-barra: #9a9a9a;
+$cor-logo: #ffffff;
+
+.fundodabarra {
+    width: 90vw;
+    height: 7vh;
+    background-color: $cor-barra;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+
+.fundodabarra h1 {
+    margin-left: 1vw;
+    font-family: aclonica;
+    color: $cor-logo;
+    text-shadow: 2px 2px 2px rgb(113, 113, 113);
+}
+
+.barradecima {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.barrade2 {
+    color: $cor-logo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    flex-grow: 1; /* Para ocupar todo o espaço disponível */
+}
+
+.barrade2 a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: $cor-logo; /* Cor dos links */
+}
+
+.barrade2 p {
+    margin: 0 1vw; /* Espaçamento entre os itens */
+    cursor: pointer; /* Indica que é interativo */
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 2px 2px rgb(113, 113, 113);
+}
+
+.barradepesquisa-container {
+    position: relative; /* Para posicionar o input */
+}
+
+#barradepesquisaa {
+    width: 10vw; /* Começa como quadrado */
+    margin-right: -3.1vw;
+    height: 30px; /* Altura do input */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: width 0.3s; /* Animação para expandir */
+    padding: 0 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: $cor-logo; /* Cor do fundo */
+    color: $cor-barra; /* Cor do texto */
+    opacity: 0.9; /* Levemente transparente */
+    cursor: pointer; /* Indica que é interativo */
+    box-shadow: 3px 3px 3px rgb(113, 113, 113);
+}
+
+#barradepesquisaa:focus {
+    width: 150px; /* Largura quando focado */
 }
