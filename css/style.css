@@ -25,14 +25,21 @@ body {
   /* Corrected scale usage */
 }
 
+section17 {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-rows: 3fr auto 30fr;
+}
+
 .tlin {
   margin-top: 7vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #dbdbdb;
-  width: 1100px;
-  height: 285px;
+  width: 70vw;
+  height: 41vh;
   float: inline-start;
   border-radius: 30px 30px 30px 30px;
   box-shadow: 10px 5px 20px rgb(191, 191, 191);
@@ -461,10 +468,10 @@ section5 {
 }
 
 #gr {
-  width: 670px;
-  height: 470px;
-  margin-top: -380px;
-  margin-left: 850px;
+  width: 60vw;
+  height: 71vh;
+  margin-top: -56vh;
+  margin-left: 42vw;
 }
 
 #sob {
@@ -504,6 +511,9 @@ h6 {
 }
 
 .ar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   text-shadow: 10px 5px 20px rgb(191, 191, 191);
 }
 
@@ -642,10 +652,10 @@ h6 {
 }
 
 .art {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: -10vw;
+  display: grid;
+  grid-template-columns: repeat(3, 33fr);
+  grid-template-rows: 1fr;
+  margin-left: 5vw;
 }
 
 #ar {
@@ -671,11 +681,11 @@ h6 {
 }
 
 .rdp {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: -165px;
-  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  margin-left: 2vw;
+  margin-top: 14vh;
   box-shadow: 10px 10px 20px rgb(191, 191, 191);
 }
 
