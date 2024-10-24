@@ -1874,3 +1874,44 @@ section p1{
     position: relative;
     /* Corrected scale usage */
 }
+
+.ref{
+    width: 80%;
+    height: 12vh;
+    background-color: $cor-barra;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #6f6f6f;
+}
+.referencias{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vh;
+    font-family: aclonica;
+    color: white;
+    text-shadow: 2px 2px 2px #6f6f6f;
+    
+}
+
+.fonte h1{
+    font-family: aclonica;
+    color: white;                   
+}
+.fonte{
+    background-color: $cor-barra;
+    width: 7vw;
+    height: 10vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    text-shadow: 2px 2px 2px #6f6f6f;
+    box-shadow: 2px 2px 2px #6f6f6f;
+}
+
+.uol p{
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
