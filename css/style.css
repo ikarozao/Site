@@ -26,17 +26,8 @@ body {
   /* Corrected scale usage */
 }
 
-section17 {
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: 100%;
-  grid-template-rows: 3fr auto 30fr;
-  grid-template-areas: "nav" "main" "aside" "footer";
-}
-
 .tlin {
   margin-top: 7vh;
-  grid-area: nav;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,15 +136,12 @@ section .livro-esquerda1 {
 section .livro-esquerda1 img {
   width: 100%;
   height: 100%;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 section .livro-esquerda1 p {
   font-size: 8px;
   margin-top: 11px;
   margin-left: 5px;
+  text-align: center;
 }
 section .estrela45 {
   width: 9vw;
@@ -488,9 +476,11 @@ section5 {
 }
 
 .sbn {
-  display: grid;
+  display: flex;
+  justify-content: space-around;
   margin-top: 10px;
   margin-left: 200px;
+  flex-direction: column;
 }
 
 h6 {
@@ -512,9 +502,6 @@ h6 {
 }
 
 .ar {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   text-shadow: 10px 5px 20px rgb(191, 191, 191);
 }
 
@@ -653,12 +640,10 @@ h6 {
 }
 
 .art {
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
-  grid-template-rows: 1fr;
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: 5vw;
+  margin-left: 2vw;
 }
 
 #ar {
@@ -682,12 +667,14 @@ h6 {
 }
 
 .rdp {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr;
-  margin-left: 2vw;
-  margin-top: 14vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 3vw;
+  margin-top: 120px;
   box-shadow: 10px 10px 20px rgb(191, 191, 191);
+  height: 300px;
+  width: 1450px;
 }
 
 .rdpp {
@@ -1357,9 +1344,9 @@ h6 {
   width: 90vw;
   height: 7vh;
   background-color: #9a9a9a;
-  display: grid;
-  grid-template-columns: auto repeat(4, 90%) auto;
-  grid-template-rows: 95% 5%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
   border-radius: 0px 0px 10px 10px;
   position: relative;
 }
@@ -1525,35 +1512,46 @@ h6 {
 .ikaro {
   width: 30vw;
   height: 60vh;
-  background-color: #959595; /* Substitua com uma cor válida */
+  background-color: #959595;
+  /* Substitua com uma cor válida */
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Alinha a imagem e o texto verticalmente */
-  position: relative; /* Para posicionar o h1 */
+  flex-direction: column;
+  /* Alinha a imagem e o texto verticalmente */
+  position: relative;
+  /* Para posicionar o h1 */
   box-shadow: 2px 2px 2px rgb(181, 181, 181);
 }
 
 .ikaro img {
   width: 20vw;
   border: solid white 1px;
-  transition: transform 0.8s ease-in-out 0.2s; /* Transição suave */
-  opacity: 1; /* Inicialmente visível */
+  transition: transform 0.8s ease-in-out 0.2s;
+  /* Transição suave */
+  opacity: 1;
+  /* Inicialmente visível */
   position: absolute;
   border-radius: 10px;
 }
 
 .ikaro:hover img {
-  transform: translatey(-5vw); /* Move a imagem para a esquerda */
+  transform: translatey(-5vw);
+  /* Move a imagem para a esquerda */
 }
 
 .ikaro h1 {
-  opacity: 0; /* Inicialmente invisível */
-  transform: translateY(100vh); /* Começa fora da tela à direita */
-  transition: transform 0.6s ease-in-out 0.1s, opacity 0.6s ease-in-out 0.5s; /* Transições com atraso */
-  position: absolute; /* Para que o h1 possa ser posicionado sobre a imagem */
-  bottom: 5vh; /* Ajuste a posição conforme necessário */
+  opacity: 0;
+  /* Inicialmente invisível */
+  transform: translateY(100vh);
+  /* Começa fora da tela à direita */
+  transition: transform 0.6s ease-in-out 0.1s, opacity 0.6s ease-in-out 0.5s;
+  /* Transições com atraso */
+  position: absolute;
+  /* Para que o h1 possa ser posicionado sobre a imagem */
+  bottom: 5vh;
+  /* Ajuste a posição conforme necessário */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1562,16 +1560,23 @@ h6 {
 }
 
 .ikaro:hover h1 {
-  opacity: 1; /* Torna visível ao passar o mouse */
-  transform: translateX(0); /* Move para a posição original */
+  opacity: 1;
+  /* Torna visível ao passar o mouse */
+  transform: translateX(0);
+  /* Move para a posição original */
 }
 
 .ikaro p {
-  opacity: 0; /* Inicialmente invisível */
-  transform: translateY(100vh); /* Começa fora da tela à direita */
-  transition: transform 0.6s ease-in-out 0.1s, opacity 0.6s ease-in-out 0.5s; /* Transições com atraso */
-  position: absolute; /* Para que o h1 possa ser posicionado sobre a imagem */
-  bottom: 3vh; /* Ajuste a posição conforme necessário */
+  opacity: 0;
+  /* Inicialmente invisível */
+  transform: translateY(100vh);
+  /* Começa fora da tela à direita */
+  transition: transform 0.6s ease-in-out 0.1s, opacity 0.6s ease-in-out 0.5s;
+  /* Transições com atraso */
+  position: absolute;
+  /* Para que o h1 possa ser posicionado sobre a imagem */
+  bottom: 3vh;
+  /* Ajuste a posição conforme necessário */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1580,8 +1585,10 @@ h6 {
 }
 
 .ikaro:hover p {
-  opacity: 1; /* Torna visível ao passar o mouse */
-  transform: translateX(0); /* Move para a posição original */
+  opacity: 1;
+  /* Torna visível ao passar o mouse */
+  transform: translateX(0);
+  /* Move para a posição original */
 }
 
 .sobre {
@@ -1742,4 +1749,46 @@ section p1 {
   transform: scale(1.05);
   position: relative;
   /* Corrected scale usage */
+}
+
+.ref {
+  width: 80%;
+  height: 12vh;
+  background-color: #9a9a9a;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px #6f6f6f;
+}
+
+.referencias {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3vh;
+  font-family: aclonica;
+  color: white;
+  text-shadow: 2px 2px 2px #6f6f6f;
+}
+
+.fonte h1 {
+  font-family: aclonica;
+  color: white;
+}
+
+.fonte {
+  background-color: #9a9a9a;
+  width: 7vw;
+  height: 10vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  text-shadow: 2px 2px 2px #6f6f6f;
+  box-shadow: 2px 2px 2px #6f6f6f;
+}
+
+.uol p {
+  color: #000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }/*# sourceMappingURL=style.css.map */
