@@ -1,0 +1,35 @@
+section17{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr auto 30fr;
+
+    grid-template-areas: 
+    "nav"
+    "main"
+    "aside"
+    "footer";
+}
+
+.tlin {
+    margin-top: 7vh;
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $car-inicio;
+    width: 70vw;
+    height: 41vh;
+    float: inline-start;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px 5px 20px rgb(191, 191, 191);
+    border: 3px solid #c4c4c4;
+    margin-left: 200px;
+}
+
+.tlin2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -25vw;
+    margin-top: -3vh;
+}
