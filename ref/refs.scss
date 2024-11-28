@@ -194,8 +194,8 @@ body{
     width: 80%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     flex-direction: column;
 }
 
@@ -204,5 +204,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     margin-left: 10vw;
-    font-size: 15px;
+    font-size: 102%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
 }

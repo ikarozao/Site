@@ -492,7 +492,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   margin-top: -10px;
   margin-bottom: 45px;
 }
@@ -502,6 +502,10 @@ h6 {
 }
 
 .ar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
   text-shadow: 10px 5px 20px rgb(191, 191, 191);
 }
 
