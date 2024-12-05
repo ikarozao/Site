@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Parabéns, Você Está Formado!</title>
+    <link rel="stylesheet" href="fim/fim.css">
 </head>
 <body>
-    <h1>Você chegou ao fim!</h1>
+    <div class="message">Parabéns, você está formado no EmpreEasy!</div>
+    <div class="confetti-wrapper" id="confetti-wrapper"></div>
+
+    <script>
+        function createConfetti() {
+            const confettiWrapper = document.getElementById('confetti-wrapper');
+            for (let i = 0; i < 300; i++) {
+                const confetti = document.createElement('div');
+                confetti.classList.add('confetti');
+
+                // Configuração de posição inicial e cores aleatórias
+                confetti.style.left = Math.random() * 100 + 'vw';
+                confetti.style.top = Math.random() * 100 + 'vh';
+                confetti.style.animationDelay = Math.random() * 2 + 's';
+                confetti.style.width = Math.random() * 10 + 5 + 'px';
+                confetti.style.height = Math.random() * 10 + 5 + 'px';
+
+                const colors = ['red', 'blue', 'yellow', 'green', 'orange', 'purple', 'pink'];
+                confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+                // Adiciona o confete ao contêiner
+                confettiWrapper.appendChild(confetti);
+            }
+        }
+
+        window.onload = createConfetti;
+    </script>
 </body>
 </html>
