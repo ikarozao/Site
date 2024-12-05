@@ -1630,14 +1630,13 @@ $cor-logo: #ffffff;
 
 .botaoanterior button {
     transition: transform 0.3s;
-    /* Add duration for the transition */
+
 }
 
 .botaoanterior button:hover {
     transform: scale(1.05);
     position: relative;
     cursor: pointer;
-    /* Corrected scale usage */
 }
 
 .botoes {
@@ -1658,15 +1657,12 @@ $cor-logo: #ffffff;
     width: 30vw;
     height: 60vh;
     background-color: #959595;
-    /* Substitua com uma cor válida */
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* Alinha a imagem e o texto verticalmente */
     position: relative;
-    /* Para posicionar o h1 */
     box-shadow: 2px 2px 2px rgb(181, 181, 181);
 }
 
@@ -1674,9 +1670,7 @@ $cor-logo: #ffffff;
     width: 20vw;
     border: solid white 1px;
     transition: transform 0.8s ease-in-out 0.2s;
-    /* Transição suave */
     opacity: 1;
-    /* Inicialmente visível */
     position: absolute;
     border-radius: 10px;
 }
@@ -1691,15 +1685,10 @@ $cor-logo: #ffffff;
 
 .ikaro h1 {
     opacity: 0;
-    /* Inicialmente invisível */
     transform: translateY(100vh);
-    /* Começa fora da tela à direita */
     transition: transform 0.6s ease-in-out 0.1s, opacity 0.6s ease-in-out 0.5s;
-    /* Transições com atraso */
     position: absolute;
-    /* Para que o h1 possa ser posicionado sobre a imagem */
     bottom: 5vh;
-    /* Ajuste a posição conforme necessário */
     display: flex;
     align-items: center;
     justify-content: center;
