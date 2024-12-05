@@ -493,7 +493,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   margin-top: -10px;
   margin-bottom: 45px;
 }
@@ -503,6 +503,10 @@ h6 {
 }
 
 .ar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
   text-shadow: 10px 5px 20px rgb(191, 191, 191);
 }
 
@@ -814,12 +818,10 @@ h6 {
 
 #brdbbb {
   transition: transform 0.3s;
-  /* Add duration for the transition */
 }
 
 #brdbbb:hover {
   transform: scale(1.1);
-  /* Corrected scale usage */
 }
 
 #brdbb {
@@ -828,12 +830,10 @@ h6 {
 
 #brdbb {
   transition: transform 0.3s;
-  /* Add duration for the transition */
 }
 
 #brdbb:hover {
   transform: scale(1.1);
-  /* Corrected scale usage */
 }
 
 .navegaçãoo {
@@ -1402,28 +1402,17 @@ h6 {
 
 #barradepesquisa {
   width: 10vw;
-  /* Começa como quadrado */
   margin-right: -3.1vw;
   height: 30px;
-  /* Altura do input */
   border: none;
-  /* Sem borda */
   border-radius: 5px;
-  /* Bordas arredondadas */
   transition: width 0.3s;
-  /* Animação para expandir */
   padding: 0 10px;
-  /* Espaçamento interno */
   font-size: 16px;
-  /* Tamanho da fonte */
   background-color: #ffffff;
-  /* Cor do fundo */
   color: #9a9a9a;
-  /* Cor do texto */
   opacity: 0.9;
-  /* Levemente transparente */
   cursor: pointer;
-  /* Indica que é interativo */
   box-shadow: 3px 3px 3px rgb(113, 113, 113);
 }
 

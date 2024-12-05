@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+// BARRA DE NAVEGAÇÃO 
+$cor-barra: #9a9a9a;
+$cor-logo: #ffffff;
+
+.fundodabarra {
+    width: 90vw;
+    height: 7vh;
+    background-color: $cor-barra;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+
+.fundodabarra h1 {
+    margin-left: 1vw;
+    font-family: aclonica;
+    color: $cor-logo;
+    text-shadow: 2px 2px 2px rgb(113, 113, 113);
+}
+
+.barradecima {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.barrade2 {
+    color: $cor-logo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.barrade2 a {
+    text-decoration: none;
+    color: $cor-logo;
+}
+
+.barrade2 p {
+    margin: 0 1vw;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 2px 2px rgb(113, 113, 113);
+}
+
+.barradepesquisa-container {
+    position: relative;
+}
+
+#barradepesquisa {
+    width: 10vw;
+    margin-right: -3.1vw;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    transition: width 0.3s;
+    padding: 0 10px;
+    font-size: 16px;
+    background-color: $cor-logo;
+    color: $cor-barra;
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(113, 113, 113);
+} 
+
+// BARRA DE NAVEGAÇÃO - FIM 
+
+.estudoteorico{
+    font-family: aclonica;
+    color: #ffffff;
+    width: 80%;
+    height: 100%;
+    background-color: $cor-barra;
+    border-radius: 30px;
+}
+.estudoteorico{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
