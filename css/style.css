@@ -1186,7 +1186,6 @@ a {
   align-items: center;
   text-align: center;
   margin-top: 5vh;
-  margin-bottom: -10vh;
 }
 
 .fundaaaa {
@@ -1195,7 +1194,6 @@ a {
   align-items: center;
   text-align: center;
   margin-top: 5vh;
-  margin-bottom: -20vh;
 }
 
 .fundaaaa h1 {
@@ -1246,7 +1244,7 @@ a {
 
 .tudofund {
   width: 1200px;
-  height: 180vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1255,6 +1253,7 @@ a {
   position: relative;
   margin-left: 11vw;
   overflow: hidden;
+  margin-bottom: 5vw;
 }
 
 .video2 {
