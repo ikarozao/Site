@@ -1068,10 +1068,11 @@ h6 {
     background: #888;
     border-radius: 10px;
 }
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
+// Remove barra de rolagem horizontal
+body {
+  overflow-x: hidden;
 }
+
 
 
 .container img {
@@ -1936,5 +1937,3 @@ section p1 {
     color: #000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
