@@ -208,3 +208,81 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+.rdp {
+
+    background-color: #7c7c7c;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.rdpp {
+    height: 300px;
+    width: 1450px;
+    background-color: #7c7c7c;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.rdp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 120px;
+    box-shadow: 10px 10px 20px rgb(191, 191, 191);
+    height: 300px;
+    width: 1450px;
+}
+
+.rdpp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3vw;
+    margin-top: 120px;
+    box-shadow: 10px 10px 20px rgb(191, 191, 191);
+}
+
+
+
+#brdb {
+    font-family: "Aclonica", sans-serif;
+    color: white;
+    margin-top: 0px;
+
+}
+
+.vixi {
+    font-family: aclonica;
+    display: flex;
+}
+
+.vixi a {
+    color: #0398F4;
+    text-decoration: underline;
+}
+
+
+#brdbb {
+    font-family: "Aclonica", sans-serif;
+    color: white;
+    line-height: 5px;
+    text-shadow: 10px 5px 35px rgb(191, 191, 191);
+    margin-top: 5vh;
+}
+
+#brdbbb {
+    font-family: "Aclonica", sans-serif;
+    color: white;
+    line-height: 5px;
+    text-shadow: 10px 5px 35px rgb(191, 191, 191);
+    font-size: 35px;
+    margin-left: 2vw;
+    margin-top: 9vh;
+}
+
+#brdbbbb {
+    font-family: "Aclonica", sans-serif;
+    color: white;
+    font-size: 12px;
+    margin-top: 9vh;
+}

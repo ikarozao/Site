@@ -460,10 +460,10 @@ section5 {
 }
 
 #gr {
-  width: 60vw;
-  height: 71vh;
+  width: 50%;
+  height: 70vh;
   margin-top: -56vh;
-  margin-left: 42vw;
+  margin-left: 50vw;
 }
 
 #sob {
@@ -928,29 +928,22 @@ h6 {
   margin-left: 240px;
 }
 
-/* Para Chrome e Edge */
 ::-webkit-scrollbar {
   width: 8px;
-  /* Largura da barra de rolagem */
 }
 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-  /* Cor do fundo da barra de rolagem */
   border-radius: 10px;
-  /* Bordas arredondadas do fundo */
 }
 
 ::-webkit-scrollbar-thumb {
   background: #888;
-  /* Cor do polegar (parte que se move) */
   border-radius: 10px;
-  /* Bordas arredondadas do polegar */
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-  /* Cor do polegar ao passar o mouse */
 }
 
 .container img {
@@ -1605,6 +1598,12 @@ h6 {
   border-radius: 20px;
   box-shadow: 2px 2px 2px #c2c2c2;
   margin-top: 3vh;
+}
+
+.contato2 a {
+  display: flex;
+  justify-content: center;
+  margin-top: -2vh;
 }
 
 .contato h1 {
